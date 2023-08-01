@@ -133,6 +133,9 @@
         app:layout_constraintBottom_toBottomOf="@+id/editTextNumber2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView2" />
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        android:background="@color/lightSilver"
+        />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
