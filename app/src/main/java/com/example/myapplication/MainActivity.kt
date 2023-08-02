@@ -41,7 +41,6 @@ class MainActivity : AppCompatActivity() {
             position: Int,
             id: Long
         ) {
-            // 選択された時に実行したい処理
         }
 
         override fun onNothingSelected(parent: AdapterView<*>?) {
@@ -50,6 +49,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     enum class Lang{
+        未選択,
         DSS,
         DMS
     }
